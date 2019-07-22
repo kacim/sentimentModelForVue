@@ -2,8 +2,12 @@
 给公司员工学习vue的用法和自定义组件以及路由数据请求等的模型
 
 基于Vue.js 2.x系列 + Element UI 的模型。
-[线上地址]等我改天放上去
-
+vue 官网
+https://cn.vuejs.org/
+el-ui 官网
+https://element.eleme.cn/#/zh-CN
+[线上地址]
+等我改天放上去
 
 ## 前言 ##
 在公司用了Vue + Element组件库做了个舆情模型，为了方便大家的学习 总结成这个模型方案。
