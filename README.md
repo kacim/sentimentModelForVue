@@ -10,6 +10,7 @@
 
 基于vue.js,使用vue-cli@3.2.3脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离sass样式，方便管理scss
 （已经升级到 vue-cli@3.2.3，请更新依赖）
+assets里的icon为阿里的iconfont里的自定义文字图标
 
 ## 以下功能重点看 ##
 - [x] login.vue
