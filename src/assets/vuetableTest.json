@@ -1,0 +1,63 @@
+{
+    "list": [{
+        "title": "政务",
+        "data": [{"num":50,"content":"内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":1},
+                {"num":33,"content":"这是一个长的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":20,"content":"5","status":1},
+                {"num":33,"content":"这是一个长的内容区域6","status":0},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    },{
+       "title": "民主",
+       "data": [{"num":50,"content":"这是一个长的内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":1},
+                {"num":33,"content":"的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":20,"content":"这是一个长的内容区域5","status":1},
+                {"num":33,"content":"这是一个长的内容区域6","status":0},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    },{
+       "title": "经济",
+       "data": [{"num":50,"content":"这是一个长的内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":0},
+                {"num":33,"content":"这是一个长的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":20,"content":"这是一个长的内容区域5","status":1},
+                {"num":33,"content":"这是一个长的内容区域6","status":1},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    },{
+       "title": "汽车",
+       "data": [{"num":50,"content":"这是一个长的内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":1},
+                {"num":33,"content":"这是一个长的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":30,"content":"这是一个长的内容区域5","status":2},
+                {"num":33,"content":"这是一个长的内容区域6","status":2},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    },{
+       "title": "房地产",
+       "data": [{"num":50,"content":"这是一个长的内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":1},
+                {"num":13,"content":"这是一个长的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":20,"content":"这是一个长的内容区域5","status":1},
+                {"num":33,"content":"这是一个长的内容区域6","status":2},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    },{
+       "title": "通讯IT",
+       "data": [{"num":50,"content":"这是一个长的内容区域1","status":0},
+                {"num":20,"content":"这是一个长的内容区域2","status":1},
+                {"num":33,"content":"这是一个长的内容区域3","status":2},
+                {"num":50,"content":"这是一个长的内容区域4","status":0},
+                {"num":20,"content":"这是一个长的内容区域5","status":1},
+                {"num":33,"content":"这是一个长的内容区域6","status":2},
+                {"num":50,"content":"这是一个长的内容区域7","status":0}
+        ]
+    }]
+}

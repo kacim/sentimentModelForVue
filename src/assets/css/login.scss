@@ -1,0 +1,151 @@
+@import 'common';
+
+.body {
+    height: 100%;
+    background: url(../../assets/img/login/bg.png) top center no-repeat fixed;
+    background-size: cover;
+}
+
+.el-button--small {
+    width: 100%;
+}
+
+.isShow {
+    display: none;
+}
+
+.el-select .el-input .el-select__caret {
+    left: -28px !important;
+}
+
+.itemValue {
+    padding: 30px 74px 0;
+    position: relative;
+
+    .setValue {
+        position: relative;
+
+        .el-select {
+            width: 100%;
+        }
+
+        .forget {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 12px;
+            color: #28AAE4;
+            cursor: pointer;
+
+            &:hover {
+                color: #28AAE4;
+            }
+        }
+
+        i {
+            position: absolute;
+            left: 13px;
+            top: 1px;
+            color: #666;
+        }
+    }
+
+    .el-form-item__content {
+
+        input {
+            padding: 0 40px !important;
+            display: block;
+            width: 100%;
+            height: 38px;
+            line-height: 38px;
+            background-color: #fff;
+            padding: 0 10px 0 14px;
+            font-size: 13px;
+            border: 1px solid #666;
+            border-radius: 4px;
+        }
+    }
+
+}
+
+.headIcon {
+    padding: 0px 0 0 74px;
+
+    img {
+        width: 50px;
+    }
+
+    div {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        position: relative;
+        top: 7px;
+        left: 5px;
+    }
+
+    img,
+    div {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.otherInfo {
+    float: right;
+    color: #333;
+    font-size: 12px;
+    margin-right: 74px;
+    z-index: 2;
+    cursor: pointer;
+
+    a {
+        color: #28AAE4;
+    }
+}
+
+.registration_btn {
+    float: right;
+}
+
+.login_contain {
+    width: 420px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+
+    /*position: relative;*/
+    .title {
+        font-size: 22px;
+        text-align: center;
+        line-height: 40px;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+
+        .back_btn {
+            font-size: 15px;
+            color: #fff;
+            text-decoration: none;
+            position: absolute;
+            right: 16px;
+            top: 13px;
+            display: block;
+        }
+
+        .logo {
+            height: 36px;
+            position: absolute;
+            left: 20px;
+            top: 13px;
+        }
+    }
+
+}
