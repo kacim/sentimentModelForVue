@@ -21,7 +21,10 @@ export default new Router({
             path: '/index1',
             component: resolve => require(['../components/page/index1.vue'], resolve)
         },
-
+        {
+            path: '/mobile',
+            component: resolve => require(['../components/page/mobile.vue'], resolve)
+        },
         {
             path: '/index',
             meta: { title: '系统首页' },

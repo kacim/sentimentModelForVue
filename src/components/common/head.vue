@@ -5,7 +5,7 @@
             <div>I SEER</div>
         </div>
         <div class='leftHead'>
-            <div class='leftItem'>首页</div>
+            <div class='leftItem' @click='toindex'>首页</div>
             <div class='leftItem needDown' @click='tochange'>舆情监测</div>
             <div class='leftItem'>舆情搜索</div>
             <div class='leftItem needDown' @click='change'>舆情报告</div>
@@ -26,6 +26,10 @@ export default {
         return {}
     },
     methods: {
+
+        toindex(){
+            this.$router.push({ path:'/'})
+        },
 
         tochange(){
             this.$router.push({ path:'/flex'})

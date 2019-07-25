@@ -1,0 +1,227 @@
+@import "common";
+
+div {
+    color: white;
+}
+
+body{
+	background:black;
+}
+
+.outSize {
+    margin: 0 auto;
+    position:relative;
+}
+
+#app{
+	overflow: auto;
+}
+
+.head {
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    padding: 0.2rem 0.1rem 0 0.1rem;
+
+    .title {
+        float: left;
+    }
+
+    .btn {
+        float: right;
+        width: 1rem;
+        height: 0.2rem;
+        border-radius: 10px;
+        border: 1px solid white;
+        position: relative;
+
+        div {
+            position: absolute;
+            right: 21%;
+            top: 50%;
+            margin-top: -0.05rem;
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 100%;
+            background: white;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 0.18rem;
+            top: 0;
+            left: 50%;
+            background: white;
+        }
+    }
+}
+
+
+.swiper {
+    margin-top: .3rem;
+    overflow: hidden;
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    .item {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 20%;
+        text-align: center;
+    }
+}
+
+
+.info {
+	margin-top: .2rem;
+    height: .5rem;
+    font-size: .24rem;
+    text-align: center;
+    position: relative;
+    line-height: .5rem;
+
+    &:after {
+        content: '';
+        width: 20%;
+        height: 1px;
+        background: white;
+        position: absolute;
+        left: 10%;
+        top: 0.24rem;
+    }
+
+    &:before {
+        content: '';
+        width: 20%;
+        height: 1px;
+        background: white;
+        position: absolute;
+        right: 10%;
+        top: 0.24rem;
+    }
+
+}
+
+.contentModel {
+    overflow: hidden;
+
+    .content {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+
+        .item:nth-child(2n) {
+            top: .3rem;
+        }
+
+        .item {
+            position: relative;
+            background: white;
+            margin: .1rem;
+            width: calc(100%/2 - .2rem);
+            height: auto;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 0;
+            cursor: pointer;
+            &:hover {
+                -moz-box-shadow: 0px 1px 16px #fff;
+                /* 老的 Firefox */
+                box-shadow: 0px 1px 16px #fff;
+            }
+
+            .setContent {
+                padding: .05rem;
+                text-align: left;
+                color: #333;
+                font-size: .24rem;
+                line-height: .36rem;
+                height: .8rem;
+            }
+
+            .contentName {
+                width: 100%;
+                text-align: right;
+                padding-right: .1rem;
+                color: #333;
+                font-size: .16rem;
+                margin: .2rem 0 .2rem 0;
+            }
+
+            .userName {
+                color: #333;
+                font-size: .16rem;
+                margin-bottom: .2rem;
+                text-align: left;
+                padding-left: .1rem;
+            }
+
+            img {
+                width: 100%;
+                border-top-right-radius: 6px;
+                border-top-left-radius: 6px;
+            }
+        }
+    }
+}
+
+
+.footer{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	height: .8rem;
+	background:black;
+	border-top: 1px solid white;
+	z-index: 100;
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+
+	.left{
+		left:10%;
+	}
+
+	.right{
+		right:10%;
+	}
+
+	.item{
+      
+      position:absolute;
+      
+      width: .3rem;
+      text-align: center;
+      font-size: .12rem;
+      padding-top:.1rem;
+      img{
+      	width: 100%;
+      	margin-bottom: .05rem;
+      }
+
+	}
+    
+    .mid{
+    	background:#fe536b;
+    	width: .7rem;
+    	height: .7rem;
+    	line-height: .7rem;
+    	margin: 0 auto;
+    	font-size: .18rem;
+    	text-align: center;
+    	border-radius:100%;
+    	position:relative;
+    	margin-top: -.35rem;
+    	&:hover{
+    		background:darken(#fe5453, 20%);
+    	}
+    }
+
+}

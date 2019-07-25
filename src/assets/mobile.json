@@ -1,0 +1,24 @@
+{
+    "list": [
+    {
+        "data": [
+        {
+            "src": "http://img.mp.itc.cn/upload/20160531/805ba8b2c0da47b38d9eb920cb3b391f_th.jpg",
+            "content": "这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域",
+            "status": "《美丽世界》"
+        },
+        {
+            "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563965713785&di=a51cb318431a2facfe6a2c8b0aa5d8a9&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111207%2FImg328215620.jpg",
+            "content": "这是一个长的内容区域2",
+            "status": "《很好》"
+        }, {
+            "src": "http://img.mp.itc.cn/upload/20160531/805ba8b2c0da47b38d9eb920cb3b391f_th.jpg",
+            "content": "这里是域这里是内容需要被截取的内容区域3",
+            "status": "《美丽》"
+        }, {
+            "src": "http://img.mp.itc.cn/upload/20160531/805ba8b2c0da47b38d9eb920cb3b391f_th.jpg",
+            "content": "这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域这里是内容需要被截取的内容区域",
+            "status": "《世界》"
+        }]
+    }]
+}
